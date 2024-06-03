@@ -10,3 +10,13 @@ console.log("Original" , temii);
 //  syntax  nameofarray.unshift( data we want to enter )
 temii.unshift("saeed" ,"hurara");
 console.log("Original" , temii);
+
+// pop function ( use to remove element at ends)
+// syntax  nameofarray.pop() more add add to remove more
+temii.pop();
+console.log("Original" , temii);
+
+// shift function ( use to remove at starting)
+// syntax nameofarray.shift()
+temii.shift();
+console.log("Original" , temii);
