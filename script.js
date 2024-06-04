@@ -20,3 +20,13 @@ console.log("Original" , temii);
 // syntax nameofarray.shift()
 temii.shift();
 console.log("Original" , temii);
+
+// splice function ( use for all pop , push , shift , unshift)
+// syntax nameofarray [index , delcount , new element]
+temii.splice(0 , 3 , "cat" , "goat" ,"camel");
+console.log("Original" , temii);
+
+// slice function ( use to divide the array elements )
+// syntax nameofarray.slice()
+// MOST IMPORTANT NOT EFFECTED ORIGINAL ARRAY
+temii.slice(0 , 1)
